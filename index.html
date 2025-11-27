@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odonto Harmony Eusébio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦷</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
@@ -26,6 +27,7 @@
               'float': 'float 6s ease-in-out infinite',
               'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
               'spin-slow': 'spin 12s linear infinite',
+              'pan-slow': 'pan 20s linear infinite alternate',
             },
             keyframes: {
               fadeInUp: {
@@ -35,6 +37,10 @@
               float: {
                 '0%, 100%': { transform: 'translateY(0)' },
                 '50%': { transform: 'translateY(-15px)' },
+              },
+              pan: {
+                '0%': { transform: 'scale(1.05)' },
+                '100%': { transform: 'scale(1.15)' },
               }
             }
           }
@@ -71,6 +77,12 @@
       
       .text-shadow {
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      }
+      
+      /* Mask Image Gradient */
+      .mask-image-gradient {
+        mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
       }
 
       /* Hide scrollbar for stories but keep functionality */
