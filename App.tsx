@@ -166,14 +166,14 @@ function App() {
                 href={getWhatsAppLink("Quero agendar uma consulta inicial.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-brand-green text-white h-14 px-8 rounded-xl font-bold text-base hover:bg-green-600 transition-all shadow-xl hover:shadow-green-500/30 transform hover:-translate-y-1 flex items-center justify-center gap-2 w-full sm:w-auto min-w-[220px]"
+                className="group bg-brand-green text-white h-14 rounded-xl font-bold text-base hover:bg-green-600 transition-all shadow-xl hover:shadow-green-500/30 transform hover:-translate-y-1 flex items-center justify-center gap-2 w-full sm:w-[260px]"
               >
                 <WhatsAppIcon className="w-5 h-5 transition-transform group-hover:scale-110" />
                 Agendar Consulta
               </a>
               <a 
                 href="#servicos" 
-                className="h-14 px-8 rounded-xl font-bold text-base border-2 border-white text-white hover:bg-white hover:text-brand-blue transition-all transform hover:-translate-y-1 flex items-center justify-center w-full sm:w-auto min-w-[220px]"
+                className="h-14 rounded-xl font-bold text-base border-2 border-white text-white hover:bg-white hover:text-brand-blue transition-all transform hover:-translate-y-1 flex items-center justify-center w-full sm:w-[260px]"
               >
                 Nossos Tratamentos
               </a>
