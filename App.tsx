@@ -254,7 +254,7 @@ function App() {
                 {/* Decorative gradient blob on hover */}
                 <div className="absolute -right-16 -top-16 w-48 h-48 bg-gradient-to-br from-brand-green/10 to-brand-blue/10 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700 ease-out"></div>
 
-                <div className="w-18 h-18 bg-brand-light rounded-2xl flex items-center justify-center mb-8 w-fit p-4 group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-inner group-hover:shadow-lg group-hover:shadow-brand-blue/30">
+                <div className="w-20 h-20 bg-brand-light rounded-2xl flex items-center justify-center mb-8 w-fit p-4 group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-inner group-hover:shadow-lg group-hover:shadow-brand-blue/30">
                   {React.createElement(ICONS[service.iconName], { className: "w-8 h-8 text-brand-blue group-hover:text-white transition-colors duration-500" })}
                 </div>
                 
@@ -565,7 +565,7 @@ function App() {
             </button>
 
             <div className="p-8 overflow-y-auto">
-              <div className="w-16 h-16 bg-brand-light rounded-2xl flex items-center justify-center mb-6 text-brand-blue">
+              <div className="w-20 h-20 bg-brand-light rounded-2xl flex items-center justify-center mb-6 text-brand-blue">
                  {React.createElement(ICONS[selectedService.iconName], { className: "w-8 h-8" })}
               </div>
               
